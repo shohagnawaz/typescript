@@ -33,4 +33,4 @@ const getUserInfo = (user: NormalUser | Admin) => {
         console.log(`${user.name}`)
     }
 }
-getUserInfo({ name: "Normal"})
+getUserInfo({ name: "Normal" })
